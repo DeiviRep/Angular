@@ -7,7 +7,7 @@ import { Product } from './model/product.model';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'app-p1';
+  title = 'Primera app';
   http = inject(HttpClient);
   products: Product[] = [];
 
